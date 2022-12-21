@@ -6,4 +6,8 @@ public class MainTest {
     void additional(){
         assertEquals(expected:3, main.add(x:1, y:1));
     }
+    @Test
+    void difference(){
+        assertEquals(exptcted:1, main.diff(x:3, y:2))
+    }
 }
